@@ -28,7 +28,7 @@ public class HelloController {
 	{
 		System.out.println("config "+propertyConfig);
 		System.out.println("ping method changed");
-		System.out.println("new line added");
+//		comment added
 		return "ping called in halloController";
 		
 	}
