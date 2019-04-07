@@ -36,6 +36,7 @@ public class HelloController {
 	@GetMapping("/info")
 	public ResponseEntity<List<Merchant>> display()
 	{
+		System.out.println("display method changed");
 		List<Merchant> listOfMchnts = helloService.display();
 		return new ResponseEntity<List<Merchant>>(listOfMchnts,HttpStatus.OK);
 	}
