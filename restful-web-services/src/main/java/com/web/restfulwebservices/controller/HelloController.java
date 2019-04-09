@@ -30,6 +30,7 @@ public class HelloController {
 		System.out.println("ping method changed");
 //		comment added
 //		2nd comment
+//		3rd comment
 		return "ping called in halloController";
 		
 	}
